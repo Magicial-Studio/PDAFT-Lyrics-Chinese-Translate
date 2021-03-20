@@ -9,6 +9,7 @@
 ## 获取汉化之后打包的歌词文件
 
 请访问[Release页面】（https://github.com/Magicial-Studio/PDAFT-Lyrics-Chinese-Translate/releases）
+
 AppVeyor CI自动构建状态:[![Build status](https://ci.appveyor.com/api/projects/status/5eg6myoeiou7hxjj)](https://ci.appveyor.com/project/Raspberry-Monster/pdaft-lyrics-chinese-translate)
 
 
