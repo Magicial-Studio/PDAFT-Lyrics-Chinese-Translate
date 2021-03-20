@@ -1,0 +1,29 @@
+version: '{build}'
+skip_tags: true
+build_script:
+- cmd: >-
+    mkdir Deployments\MEGA-MPF2-M270-AIO\mdata
+
+    git checkout MEGA-MPF2-M270-AIO
+
+    xcopy mdata Deployments\MEGA-MPF2-M270-AIO\mdata /E /Y
+
+    cd Deployments\MEGA-MPF2-M270-AIO
+
+    7z a AppVeyor-MEGA-MPF2-M270-AIO-Pack.zip
+
+    cd ..
+
+    cd ..
+
+    copy Deployments\MEGA-MPF2-M270-AIO\AppVeyor-MEGA-MPF2-M270-AIO-Pack.zip
+artifacts:
+- path: AppVeyor-*Pack.zip
+deploy:
+- provider: GitHub
+  tag: $(APPVEYOR_BUILD_VERSION)
+  release: PDAFT-Lyrics-Chinese-Translate-AppVeyor CI-Build
+  auth_token:
+    secure: w4H3wLu3BETlYbPsBkoYDkXKXySdpjjTFRUY5Tt+l3OsuCX6/p9IhSCzxx0TEW+z
+  repository: Magicial-Studio/PDAFT-Lyrics-Chinese-Translate
+  artifact: /AppVeyor.*\.zip/
