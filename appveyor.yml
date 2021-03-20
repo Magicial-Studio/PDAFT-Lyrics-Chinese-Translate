@@ -1,4 +1,4 @@
-version: '{build}'
+version: AppVeyor-CI-Build.{build}
 skip_tags: true
 build_script:
 - cmd: >-
