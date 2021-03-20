@@ -12,6 +12,9 @@
 
 AppVeyor CI自动构建状态:[![Build status](https://ci.appveyor.com/api/projects/status/5eg6myoeiou7hxjj)](https://ci.appveyor.com/project/Raspberry-Monster/pdaft-lyrics-chinese-translate)
 
+## 现已支持的Mdata
+
+[M270,MEGA,MPF2](https://github.com/Magicial-Studio/PDAFT-Lyrics-Chinese-Translate/tree/MEGA-MPF2-M270-AIO)
 
 ## 我是否能加入翻译工作？
 
