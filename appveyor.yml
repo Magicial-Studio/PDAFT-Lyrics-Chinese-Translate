@@ -16,7 +16,7 @@ build_script:
 
     cd ..
 
-    copy Deployments\MEGA-MPF2-MXHD-M270-AIO\AppVeyor-MEGA-MPF2-M270-AIO-Pack.zip
+    copy Deployments\MEGA-MPF2-MXHD-M270-AIO\AppVeyor-MEGA-MPF2-MXHD-M270-AIO-Pack.zip
 artifacts:
 - path: AppVeyor-*Pack.zip
 deploy:
