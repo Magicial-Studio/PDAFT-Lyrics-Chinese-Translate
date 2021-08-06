@@ -4,7 +4,7 @@
 
 这个项目是Project DIVA Arcade Future Tone歌词的开源汉化项目
 
-目的是为大部分乃至所有的Project DIVA Arcade Future Tone歌曲进行汉化
+目的是为大部分乃至所有的Project DIVA Arcade Future Tone歌曲歌词进行汉化
 
 ## 获取汉化之后打包的歌词文件
 
@@ -14,7 +14,7 @@ AppVeyor CI自动构建状态:[![Build status](https://ci.appveyor.com/api/proje
 
 ## 现已支持的Mdata
 
-[M270,MEGA,MPF2](https://github.com/Magicial-Studio/PDAFT-Lyrics-Chinese-Translate/tree/MEGA-MPF2-M270-AIO)
+[M270,MEGA,MPF2,MXHD](https://github.com/Magicial-Studio/PDAFT-Lyrics-Chinese-Translate/tree/MEGA-MPF2-MXHD-M270-AIO)
 
 ## 我是否能加入翻译工作？
 
