@@ -36,6 +36,8 @@ AppVeyor CI自动构建状态:[![Build status](https://ci.appveyor.com/api/proje
 
 [Raspberry-Monster](https://github.com/Raspberry-Monster)
 
+[DavidMax-dm](https://github.com/DavidMax-dm)
+
 ## 本项目使用的分发协议
 
 MIT
