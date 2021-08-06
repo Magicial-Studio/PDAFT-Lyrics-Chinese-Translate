@@ -2,15 +2,15 @@ version: AppVeyor-CI-Build.{build}
 skip_tags: true
 build_script:
 - cmd: >-
-    mkdir Deployments\MEGA-MPF2-M270-AIO\mdata
+    mkdir Deployments\MEGA-MPF2-MXHD-M270-AIO\mdata
 
-    git checkout MEGA-MPF2-M270-AIO
+    git checkout MEGA-MPF2-MXHD-M270-AIO
 
-    xcopy mdata Deployments\MEGA-MPF2-M270-AIO\mdata /E /Y
+    xcopy mdata Deployments\MEGA-MPF2-MXHD-M270-AIO\mdata /E /Y
 
-    cd Deployments\MEGA-MPF2-M270-AIO
+    cd Deployments\MEGA-MPF2-MXHD-M270-AIO
 
-    7z a AppVeyor-MEGA-MPF2-M270-AIO-Pack.zip
+    7z a AppVeyor-MEGA-MPF2-MXHD-M270-AIO-Pack.zip
 
     cd ..
 
