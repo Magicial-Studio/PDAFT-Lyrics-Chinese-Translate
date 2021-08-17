@@ -12,6 +12,8 @@
 
 AppVeyor CI自动构建状态:[![Build status](https://ci.appveyor.com/api/projects/status/5eg6myoeiou7hxjj)](https://ci.appveyor.com/project/Raspberry-Monster/pdaft-lyrics-chinese-translate)
 
+**请注意，应用了由WM86所制作的MEGA VC-1编码视频补丁包的用户请使用AppVeyor-MEGA-MPF2-MXHD-M270-WMV-AIO-Pack.zip以对视频文件进行兼容**
+
 ## 现已支持的Mdata
 
 [M270,MEGA,MPF2,MXHD](https://github.com/Magicial-Studio/PDAFT-Lyrics-Chinese-Translate/tree/MEGA-MPF2-MXHD-M270-AIO)
