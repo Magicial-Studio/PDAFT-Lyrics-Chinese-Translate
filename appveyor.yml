@@ -4,9 +4,15 @@ build_script:
 - cmd: >-
     mkdir Deployments\MEGA-MPF2-MXHD-M270-AIO\mdata
 
+    mkdir Deployments\MEGA-MPF2-MXHD-M270-WMV-AIO\mdata
+
     git checkout MEGA-MPF2-MXHD-M270-AIO
 
     xcopy mdata Deployments\MEGA-MPF2-MXHD-M270-AIO\mdata /E /Y
+
+    git checkout MEGA-MPF2-MXHD-M270-WMV-AIO
+
+    xcopy mdata Deployments\MEGA-MPF2-MXHD-M270-WMV-AIO\mdata /E /Y
 
     cd Deployments\MEGA-MPF2-MXHD-M270-AIO
 
@@ -17,6 +23,16 @@ build_script:
     cd ..
 
     copy Deployments\MEGA-MPF2-MXHD-M270-AIO\AppVeyor-MEGA-MPF2-MXHD-M270-AIO-Pack.zip
+
+    cd Deployments\MEGA-MPF2-MXHD-M270-WMV-AIO\
+
+    7z a AppVeyor-MEGA-MPF2-MXHD-M270-WMV-AIO-Pack.zip
+
+    cd ..
+
+    cd ..
+
+    copy Deployments\MEGA-MPF2-MXHD-M270-WMV-AIO\AppVeyor-MEGA-MPF2-MXHD-M270-WMV-AIO-Pack.zip
 artifacts:
 - path: AppVeyor-*Pack.zip
 deploy:
