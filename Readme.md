@@ -2,7 +2,7 @@
 
 ## 简单介绍一下自己desu
 
-如你所见，这个分支是Fontmap分支，包含的是由[Hiki8Man](github.com/hiki8man)所制作的Project DIVA Arcade Future Tone 字库文件
+如你所见，这个分支是Fontmap分支，包含的是由[Hiki8Man](https://github.com/hiki8man)所制作的Project DIVA Arcade Future Tone 字库文件
 
 此字库提供了相较于Project DIVA Arcade Future Tone 原版字库文件，更好的中文支持
 
