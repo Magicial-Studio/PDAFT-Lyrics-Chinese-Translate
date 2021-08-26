@@ -43,6 +43,10 @@ AppVeyor CI自动构建状态:[![Build status](https://ci.appveyor.com/api/proje
 
 [PD-MM_Project](https://github.com/WM86)
 
+## 本项目所使用的字库文件
+
+请参考[Fontmap](https://github.com/Magicial-Studio/PDAFT-Lyrics-Chinese-Translate/tree/Fontmap)分支
+
 ## 本项目使用的分发协议
 
 MIT
